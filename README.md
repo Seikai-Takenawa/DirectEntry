@@ -11,7 +11,7 @@ specifically to address the issue of the experimental warning screen always appe
 The original source code was integrated into my personal learning and experimental project PoopPioneer.[More Information](https://github.com/Seikai-Takenawa/pooppioneer)
 
 此部分代码的核心原理为：<br />
-通过Mixin注入WorldOpenFlows.class中的forceLoadWorld()方法，使其跳过所有判断，直接执行loadWorld.run()方法。<br />
+通过Mixin注入WorldOpenFlows.class中的confirmWorldCreation()方法，使其跳过所有判断，直接执行loadWorld.run()方法。<br />
 同时，通过Mixin注入，模组也**强制**将“世界是否为旧版本”定义为false，“游戏周期的稳定性”定义为true。<br />
 The core principle of this part of the code is:<br />
 By injecting the forceLoadWorld() method in WorldOpenFlows.class through Mixin, it skips all checks and directly executes the loadWorld.run() method.<br />
