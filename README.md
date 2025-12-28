@@ -17,6 +17,11 @@ The core principle of this part of the code is:<br />
 By injecting the forceLoadWorld() method in WorldOpenFlows.class through Mixin, it skips all checks and directly executes the loadWorld.run() method.<br />
 At the same time, through Mixin injection, the mod also **forcibly** sets "whether the world is an old version" to false and "the stability of the lifecycle" to true.
 
+#效果|Demonstration
+-------------------
+![before](https://github.com/Seikai-Takenawa/DirectEntry/blob/master/example.before.gif)
+![after](https://github.com/Seikai-Takenawa/DirectEntry/blob/master/example.after.gif)
+
 #警告|Warnning
 ---------------
 模组实现跳过“实验性警告”的过程可以说是**强制且暴力的**，由于在创建和加载世界的过程中**不会进行任何检查**，请在加入本模组前<br />
