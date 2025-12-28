@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "com.takenawa.directentry.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.directentry.refmap.json",
+  "client": ["DEWorldDirectLoadingMixin"],
+  "minVersion": "0.8.5"
+}
