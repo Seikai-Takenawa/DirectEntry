@@ -5,10 +5,10 @@ The core function of this mod is to skip the "Experimental Warning" screen that 
 always pops up when entering or creating a new world in certain situations.
 
 此部分代码为本人学习开发我的世界1.21.1Forge端模组过程中，遇到：进入世界时总会弹出实验性警告窗口而<br />
-研究开发的，源代码原集成于个人学习实验项目PoopPioneer，[详见：](https://github.com/Seikai-Takenawa/pooppioneer)
+研究开发的，源代码原集成于个人学习实验项目PoopPioneer，[详见](https://github.com/Seikai-Takenawa/pooppioneer)<br />
 This part of the code was developed during my process of learning to create Minecraft 1.21.1 Forge mods, <br />
 specifically to address the issue of the experimental warning screen always appearing when entering a world. <br />
-The original source code was integrated into my personal learning and experimental project PoopPioneer.[More Information:](https://github.com/Seikai-Takenawa/pooppioneer)
+The original source code was integrated into my personal learning and experimental project PoopPioneer.[More Information](https://github.com/Seikai-Takenawa/pooppioneer)
 
 此部分代码的核心原理为：<br />
 通过Mixin注入WorldOpenFlows.class中的forceLoadWorld()方法，使其跳过所有判断，直接执行loadWorld.run()方法。<br />
