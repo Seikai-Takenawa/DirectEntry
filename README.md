@@ -14,7 +14,7 @@ The original source code was integrated into my personal learning and experiment
 通过Mixin注入WorldOpenFlows.class中的confirmWorldCreation()方法，使其跳过所有判断，直接执行loadWorld.run()方法。<br />
 同时，通过Mixin注入，模组也**强制**将“世界是否为旧版本”定义为false，“游戏周期的稳定性”定义为true。<br />
 The core principle of this part of the code is:<br />
-By injecting the forceLoadWorld() method in WorldOpenFlows.class through Mixin, it skips all checks and directly executes the loadWorld.run() method.<br />
+By injecting the confirmWorldCreation() method in WorldOpenFlows.class through Mixin, it skips all checks and directly executes the loadWorld.run() method.<br />
 At the same time, through Mixin injection, the mod also **forcibly** sets "whether the world is an old version" to false and "the stability of the lifecycle" to true.
 
 #效果|Demonstration
